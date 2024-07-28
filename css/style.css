@@ -38,9 +38,17 @@ body {
     box-sizing: content-box;
     /* background-color: #55FEAB; */
     background-color: #0061AB;
+    cursor: pointer;
 
 
 }
+
+.card .btn:hover{
+background-color: #74CBFB;
+transition: ease-in-out 0.5s;
+}
+
+
 
 .dice{
     width: 30px;
@@ -49,8 +57,14 @@ body {
     background-color: rgb(255, 255, 255);
     /* background-color: #55FEAB; */
     background-color: #0061AB;
+    border-radius: 5px;
     
 }
+
+/* .dice:hover{
+    background-color: #74CBFB;
+
+} */
 
 .linha-horizontal{
     padding: 5px;
