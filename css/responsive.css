@@ -1,0 +1,25 @@
+/* @media(max-width: 768px){
+    .card{
+        padding-inline: 50px;
+        width: 368px;
+        
+        
+    }
+} */
+
+.card p{
+    font-size: 21px;
+    padding: 26px;
+}
+
+@media(max-width: 570px){
+    .container .card{
+        width: 290px;
+    }
+
+    .linha-horizontal{
+        width: 280px;
+    }
+}
+
+
